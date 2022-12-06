@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Counter = () => {
+const EffectEx = () => {
     const [name, setName] = useState('');
     const [nickname, setNickname] = useState('');
 
@@ -24,6 +24,7 @@ const Counter = () => {
     
   return (
     <>
+    {/* 안녕하세요 이 부분은 주석입니다. */}
       <div>
         <input value={name} onChange={onChangeName}></input>
         <input value={nickname} onChange={onChangeNickname}></input>
@@ -32,4 +33,4 @@ const Counter = () => {
   );
 }
 
-export default Counter;
+export default EffectEx;
